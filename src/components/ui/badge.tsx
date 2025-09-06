@@ -12,6 +12,8 @@ const badgeVariants = cva(
         secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        tennis: "border-tennis-court bg-tennis-court/10 text-tennis-wimbledon hover:bg-tennis-court/20",
+        premium: "border-tennis-emerald bg-gradient-premium text-white shadow-glow",
       },
     },
     defaultVariants: {
